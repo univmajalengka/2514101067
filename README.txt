@@ -1,14 +1,4 @@
 EXPLORE CIPELAH — TRAVEL DISCOVERY
-
-Desain: Travel Discovery dengan warna biru langit dan putih.
-
-Cara menjalankan di VS Code:
-1. Ekstrak ZIP.
-2. Buka VS Code > File > Open Folder.
-3. Pilih folder Explore_Cipelah_Travel_Discovery.
-4. Buka index.html.
-5. Klik kanan index.html > Open with Live Server (jika ekstensi Live Server terpasang), atau buka index.html langsung di browser.
-
 Fitur:
 - Landing page Travel Discovery.
 - Galeri foto dengan filter kategori dan lightbox.
