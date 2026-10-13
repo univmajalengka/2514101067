@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Temukan inspirasi perjalanan ke Curug Cipelah, Cianjur, lewat Explore Cipelah.">
+<title>Explore Cipelah — Find Your Escape</title>
+<style>
+:root{--blue:#3e9ed8;--blue2:#dff3ff;--navy:#12334b;--sky:#eff9ff;--white:#fff;--ink:#17374b;--muted:#6c8797;--line:#dcecf5;--yellow:#ffd56b}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:82px}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}.nav{height:78px;padding:0 7%;display:flex;align-items:center;justify-content:space-between;gap:20px;position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-bottom:1px solid #e8f2f8}.logo{font-size:20px;font-weight:900;letter-spacing:-.8px;white-space:nowrap}.logo .mark{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:10px;background:var(--blue);color:#fff;margin-right:7px}.logo span:last-child{color:var(--blue)}.navlinks{display:flex;align-items:center;gap:25px;font-size:12px;font-weight:700;color:#557183}.navlinks a:hover{color:var(--blue)}.nav-cta,.btn{display:inline-block;background:var(--blue);color:#fff;padding:13px 18px;border-radius:7px;font-weight:800;font-size:12px;border:0;cursor:pointer;transition:.2s}.nav-cta:hover,.btn:hover{background:#217fb7;transform:translateY(-1px)}
+.hero{min-height:650px;height:79vh;max-height:800px;position:relative;overflow:hidden;display:flex;align-items:center;padding:0 9%;color:#fff;background:#1e5d7f}.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 45%}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,42,65,.82),rgba(7,42,65,.25) 78%),linear-gradient(0deg,rgba(7,42,65,.4),transparent 50%)}.hero-content{position:relative;z-index:1;max-width:680px}.pill{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.38);border-radius:30px;padding:9px 13px;font-size:10px;font-weight:800;letter-spacing:1.2px}.pill:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--yellow)}.hero h1{font-size:clamp(48px,7vw,86px);line-height:.99;letter-spacing:-4px;margin:23px 0}.hero h1 em{font-family:Georgia,serif;font-weight:400;color:#bfe8ff}.hero p{max-width:510px;font-size:15px;line-height:1.85;color:#e7f5fc}.hero-actions{display:flex;gap:13px;align-items:center;margin-top:27px;flex-wrap:wrap}.btn-white{background:#fff;color:var(--navy)}.btn-outline{background:transparent;border:1px solid rgba(255,255,255,.7)}.hero-stats{position:absolute;z-index:1;bottom:28px;left:9%;right:9%;display:flex;align-items:end;justify-content:space-between}.hero-stats small{display:block;letter-spacing:1.5px;font-size:9px;color:#d2eafa}.hero-stats strong{display:block;margin-top:6px;font-size:14px}.hero-stats .note{font-size:11px;color:#e4f5ff}
+.section{padding:88px 9%}.eyebrow{font-size:10px;letter-spacing:2px;color:var(--blue);font-weight:900;margin-bottom:17px}.title{font-size:clamp(33px,4.2vw,53px);letter-spacing:-2.2px;line-height:1.1;margin:0}.title em{font-family:Georgia,serif;font-weight:400;color:var(--blue)}.section-head{display:flex;justify-content:space-between;align-items:end;gap:28px;margin-bottom:30px}.section-head p{max-width:330px;font-size:13px;line-height:1.8;color:var(--muted);margin:0}.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:65px;align-items:start}.intro-copy{font-size:14px;line-height:1.95;color:var(--muted)}.intro-copy strong{color:var(--ink)}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}.chip{background:var(--sky);color:#337ba3;border:1px solid #d8edf8;border-radius:30px;padding:9px 12px;font-size:11px;font-weight:700}
+.quick-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:43px}.quick-card{border:1px solid var(--line);padding:22px;border-radius:12px;background:#fff;box-shadow:0 8px 24px rgba(34,111,153,.04)}.quick-icon{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:var(--blue2);color:#267eaf;font-size:21px}.quick-card h3{font-size:16px;margin:15px 0 7px}.quick-card p{font-size:12px;line-height:1.75;color:var(--muted);margin:0}
+.gallery-section{background:var(--sky)}.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}.filter-btn{border:1px solid #d4eaf6;background:#fff;color:#527488;border-radius:30px;padding:9px 14px;font-size:11px;font-weight:800;cursor:pointer}.filter-btn.active{background:var(--navy);border-color:var(--navy);color:white}.gallery{display:grid;grid-template-columns:1.12fr 1fr 1fr;grid-template-rows:235px 235px;gap:14px}.photo{position:relative;padding:0;border:0;border-radius:11px;overflow:hidden;cursor:pointer;background:#d5eaf4;text-align:left;color:white}.photo:first-child{grid-row:span 2}.photo:last-child{grid-column:span 2}.photo img{width:100%;height:100%;object-fit:cover;transition:transform .35s}.photo:hover img{transform:scale(1.055)}.photo:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(transparent,rgba(6,31,46,.75))}.photo-label{position:absolute;z-index:1;bottom:17px;left:18px;right:18px}.photo-label small{display:block;font-size:9px;letter-spacing:1.5px;margin-bottom:7px}.photo-label strong{font-size:16px}.photo-label b{float:right;font-size:20px}.gallery-note{font-size:11px;color:var(--muted);margin:15px 0 0}
+.packages{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}.package{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}.package-image{height:175px;position:relative}.package-image img{width:100%;height:100%;object-fit:cover}.package-badge{position:absolute;left:13px;top:13px;background:#fff;color:var(--navy);font-size:9px;font-weight:900;padding:8px 10px;border-radius:30px}.package-body{padding:20px}.package-body h3{font-size:18px;margin:0 0 9px}.package-body p{font-size:12px;line-height:1.8;color:var(--muted);min-height:63px}.package-meta{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:14px;font-size:10px;color:#5b7d91;font-weight:800}.package-body .btn{margin-top:15px;width:100%}.disclaimer{font-size:10px;color:var(--muted);line-height:1.7;margin-top:17px}
+.plan-banner{margin:0 9% 20px;border-radius:16px;background:linear-gradient(110deg,#dff4ff,#f5fbff);padding:28px 32px;display:flex;justify-content:space-between;align-items:center;gap:25px}.plan-banner h3{font-size:21px;margin:0 0 8px}.plan-banner p{font-size:12px;line-height:1.7;color:var(--muted);margin:0}.weather-card{display:grid;grid-template-columns:1.1fr 1fr;gap:35px;background:#f1f9fe;border:1px solid #d9edf8;border-radius:14px;padding:30px;margin-top:28px}.weather-main{display:flex;gap:20px;align-items:center}.weather-icon{font-size:55px}.weather-main h3{font-size:21px;margin:0 0 7px}.weather-main p{font-size:12px;color:var(--muted);line-height:1.7;margin:0}.weather-fields{display:grid;grid-template-columns:1fr 1fr;gap:12px}.weather-fields label{font-size:10px;font-weight:800;color:#5b7b8f;display:block;margin-bottom:7px}.weather-fields input{width:100%;border:1px solid #d4e7f2;background:#fff;border-radius:6px;padding:11px;color:var(--ink)}.weather-tip{font-size:11px;line-height:1.7;color:var(--muted);margin:15px 0 0}
+.reviews-section{background:#f8fcff}.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:30px}.review{background:white;border:1px solid var(--line);border-radius:12px;padding:23px}.stars{color:#e6a929;letter-spacing:2px;font-size:14px}.review blockquote{padding:0;margin:15px 0;font-size:13px;line-height:1.8;color:#597485}.review-person{display:flex;gap:10px;align-items:center;border-top:1px solid var(--line);padding-top:14px}.avatar{width:34px;height:34px;display:grid;place-items:center;border-radius:50%;background:var(--blue2);color:#287fae;font-weight:900}.review-person strong{display:block;font-size:11px}.review-person small{font-size:10px;color:var(--muted)}
+.map-section{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}.map-visual{min-height:310px;border-radius:14px;overflow:hidden;position:relative;background:linear-gradient(135deg,#d9f0df,#c8e8fa);display:grid;place-items:center;text-align:center;padding:25px}.map-visual:before,.map-visual:after{content:"";position:absolute;width:150%;height:50px;background:rgba(255,255,255,.55);transform:rotate(-25deg)}.map-visual:after{transform:rotate(38deg);background:rgba(91,177,216,.18)}.map-pin{position:relative;z-index:1;width:76px;height:76px;border-radius:50% 50% 50% 8px;transform:rotate(-45deg);background:var(--blue);box-shadow:0 12px 25px #4b9cc966;display:grid;place-items:center;color:#fff;font-size:30px}.map-pin span{transform:rotate(45deg)}.map-label{position:relative;z-index:1;background:#fff;padding:10px 14px;border-radius:7px;font-size:12px;font-weight:900;margin-top:15px;box-shadow:0 6px 18px #174a6212}.map-copy p{font-size:13px;line-height:1.9;color:var(--muted)}.map-copy .btn{margin-top:10px}
+.faq{border-top:1px solid var(--line);margin-top:25px}.faq details{border-bottom:1px solid var(--line);padding:18px 0}.faq summary{cursor:pointer;list-style:none;font-size:13px;font-weight:800}.faq summary:after{content:"+";float:right;color:var(--blue);font-size:20px}.faq details[open] summary:after{content:"−"}.faq details p{font-size:12px;line-height:1.8;color:var(--muted);max-width:800px}
+.footer-cta{background:var(--navy);color:white;padding:62px 9%;display:flex;justify-content:space-between;align-items:center;gap:30px}.footer-cta h2{font-size:clamp(28px,4vw,43px);letter-spacing:-1.5px;margin:0 0 10px}.footer-cta p{font-size:12px;color:#c5dbe7;margin:0;line-height:1.8}.footer-cta .btn{background:#fff;color:var(--navy);white-space:nowrap}footer{background:#0c293b;color:white;padding:30px 9%;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}.footer-logo{font-weight:900;font-size:17px}.footer-logo span{color:#8bd5ff}.footer-note,.copyright{font-size:10px;color:#a9c3d1}.copyright{width:100%;border-top:1px solid #24465a;padding-top:17px;letter-spacing:1px}
+.lightbox{display:none;position:fixed;z-index:50;inset:0;background:rgba(3,20,31,.94);align-items:center;justify-content:center;padding:25px}.lightbox.show{display:flex}.lightbox img{max-width:94vw;max-height:88vh;object-fit:contain}.lightbox button{position:absolute;right:25px;top:12px;border:0;background:none;color:white;font-size:42px;cursor:pointer}
+@media(max-width:850px){.nav{padding:0 5%}.navlinks{gap:13px}.navlinks a{font-size:10px}.section{padding:68px 6%}.hero{padding:0 7%}.hero-stats{left:7%;right:7%}.intro-grid{gap:30px}.gallery{grid-template-rows:200px 200px}.map-section{gap:25px}.plan-banner{margin-left:6%;margin-right:6%}}
+@media(max-width:650px){.nav{height:auto;min-height:68px;align-items:flex-start;padding-top:17px;padding-bottom:13px;flex-direction:column;gap:13px}.navlinks{width:100%;overflow-x:auto;padding-bottom:3px;gap:17px}.navlinks a{white-space:nowrap}.nav-cta{display:none}.hero{min-height:610px;height:76vh}.hero h1{letter-spacing:-2.5px}.hero-stats .note{display:none}.intro-grid{grid-template-columns:1fr;gap:14px}.quick-cards,.packages,.reviews{grid-template-columns:1fr}.quick-card{padding:19px}.section-head{display:block}.section-head p{margin-top:14px}.gallery{grid-template-columns:1fr 1fr;grid-template-rows:180px 180px 180px}.photo:first-child{grid-row:span 2}.photo:last-child{grid-column:span 2}.weather-card{grid-template-columns:1fr;padding:21px}.plan-banner{margin:0 6% 12px;display:block;padding:23px}.plan-banner .btn{margin-top:16px}.map-section{grid-template-columns:1fr}.map-visual{min-height:250px}.footer-cta{padding:45px 7%;display:block}.footer-cta .btn{margin-top:20px}footer{padding:28px 7%}}
+@media(max-width:400px){.hero h1{font-size:45px}.hero-actions{align-items:flex-start;flex-direction:column}.hero-stats{bottom:22px}.gallery{grid-template-rows:155px 155px 155px}.photo-label{left:11px;right:10px;bottom:11px}.photo-label strong{font-size:13px}.photo-label small{font-size:8px}.weather-fields{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#home"><span class="mark">↗</span>explore<span>cipelah</span></a>
+  <nav class="navlinks">
+    <a href="#home">Home</a><a href="#gallery">Gallery</a><a href="#packages">Packages</a><a href="#weather">Weather</a><a href="#reviews">Reviews</a><a href="#maps">Maps</a><a class="nav-cta" href="#packages">Explore Now ↗</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <img src="assets/curug4.jpg" alt="Air terjun Curug Cipelah di tengah perbukitan hijau">
+  <div class="hero-content">
+    <div class="pill">DISCOVER A HIDDEN GEM · CIANJUR</div>
+    <h1>Your next escape<br>is <em>closer</em> than<br>you think.</h1>
+    <p>Temukan pesona Curug Cipelah, Cianjur — perjalanan kecil untuk menikmati udara segar, pemandangan hijau, dan keindahan air terjun.</p>
+    <div class="hero-actions"><a class="btn btn-white" href="#gallery">Explore the view ↗</a><a class="btn btn-outline" href="#maps">Find the location</a></div>
+  </div>
+  <div class="hero-stats"><div><small>YOUR DESTINATION</small><strong>Curug Cipelah, Cianjur</strong></div><div class="note">Nature · Fresh air · New memories</div></div>
+</section>
+
+<section class="section" id="about">
+  <div class="eyebrow">01 — ABOUT THE DESTINATION</div>
+  <div class="intro-grid"><h2 class="title">A little trip,<br><em>a big refresh.</em></h2><div class="intro-copy"><p><strong>Selamat datang di Explore Cipelah.</strong> Tempat untuk menemukan inspirasi perjalanan ke alam, melihat keindahan air terjun, dan merencanakan kunjungan dengan lebih mudah.</p><p>Gunakan galeri untuk melihat pemandangan, cek inspirasi paket aktivitas, baca tips sebelum berangkat, dan buka peta untuk mencari arah menuju destinasi.</p><div class="chips"><span class="chip">✦ Nature escape</span><span class="chip">◎ Photo spots</span><span class="chip">⌁ Waterfall view</span></div></div></div>
+  <div class="quick-cards">
+    <article class="quick-card"><div class="quick-icon">⌁</div><h3>Natural scenery</h3><p>Panorama air terjun dan lanskap hijau untuk menemani perjalananmu.</p></article>
+    <article class="quick-card"><div class="quick-icon">▧</div><h3>Photo moments</h3><p>Temukan inspirasi foto dan simpan momen liburan bersama teman.</p></article>
+    <article class="quick-card"><div class="quick-icon">↗</div><h3>Plan your visit</h3><p>Siapkan kebutuhan perjalanan dan cek kondisi sebelum berangkat.</p></article>
+  </div>
+</section>
+
+<section class="section gallery-section" id="gallery">
+  <div class="section-head"><div><div class="eyebrow">02 — THE GALLERY</div><h2 class="title">Views worth <em>the journey.</em></h2></div><p>Dokumentasi Curug Cipelah yang kamu kirim. Klik foto untuk melihat detailnya.</p></div>
+  <div class="filters"><button class="filter-btn active" data-filter="all">All photos</button><button class="filter-btn" data-filter="path">Green path</button><button class="filter-btn" data-filter="waterfall">Waterfall</button><button class="filter-btn" data-filter="view">Scenic view</button></div>
+  <div class="gallery">
+    <button class="photo" data-category="path" data-image="assets/curug1.jpg"><img src="assets/curug1.jpg" alt="Jalur hijau dan pepohonan di Curug Cipelah"><span class="photo-label"><small>01 / GREEN PATH</small><strong>Into the green</strong><b>↗</b></span></button>
+    <button class="photo" data-category="waterfall" data-image="assets/curug2.jpg"><img src="assets/curug2.jpg" alt="Air terjun di kawasan Curug Cipelah"><span class="photo-label"><small>02 / WATERFALL</small><strong>Nature in motion</strong><b>↗</b></span></button>
+    <button class="photo" data-category="view" data-image="assets/curug3.jpg"><img src="assets/curug3.jpg" alt="Panorama air terjun dan langit"><span class="photo-label"><small>03 / SCENIC VIEW</small><strong>Take it all in</strong><b>↗</b></span></button>
+    <button class="photo" data-category="waterfall" data-image="assets/curug4.jpg"><img src="assets/curug4.jpg" alt="Air terjun tinggi di antara perbukitan hijau"><span class="photo-label"><small>04 / WILD & FREE</small><strong>Chasing waterfalls</strong><b>↗</b></span></button>
+  </div>
+  <p class="gallery-note">Tips: pilih kategori foto di atas untuk memfilter galeri.</p>
+</section>
+
+<section class="section" id="packages">
+  <div class="section-head"><div><div class="eyebrow">03 — TRAVEL INSPIRATION</div><h2 class="title">Pick your <em>kind of escape.</em></h2></div><p>Contoh paket aktivitas untuk inspirasi. Bukan paket resmi dari pengelola.</p></div>
+  <div class="packages">
+    <article class="package"><div class="package-image"><img src="assets/curug1.jpg" alt="Pepohonan hijau"><span class="package-badge">SLOW & EASY</span></div><div class="package-body"><h3>Nature Reset</h3><p>Menikmati pemandangan, berjalan santai di jalur yang diizinkan, dan istirahat sejenak dari rutinitas.</p><div class="package-meta"><span>◷ HALF-DAY IDEA</span><span>♧ RELAX</span></div><button class="btn choose-package" data-package="Nature Reset">Pilih aktivitas ↗</button></div></article>
+    <article class="package"><div class="package-image"><img src="assets/curug2.jpg" alt="Air terjun"><span class="package-badge">MOST PHOTOGENIC</span></div><div class="package-body"><h3>Waterfall Hunter</h3><p>Menjelajahi titik pandang yang aman dan mengambil foto lanskap air terjun dari area yang diperbolehkan.</p><div class="package-meta"><span>◷ FLEXIBLE TIME</span><span>▧ PHOTO</span></div><button class="btn choose-package" data-package="Waterfall Hunter">Pilih aktivitas ↗</button></div></article>
+    <article class="package"><div class="package-image"><img src="assets/curug3.jpg" alt="Pemandangan air terjun"><span class="package-badge">WITH YOUR CREW</span></div><div class="package-body"><h3>Friends Getaway</h3><p>Rencanakan kunjungan bareng teman, siapkan bekal, dan abadikan momen perjalanan bersama.</p><div class="package-meta"><span>◷ DAY TRIP IDEA</span><span>♡ TOGETHER</span></div><button class="btn choose-package" data-package="Friends Getaway">Pilih aktivitas ↗</button></div></article>
+  </div>
+  <p class="disclaimer">Paket di atas adalah ide aktivitas, bukan penawaran komersial. Harga tiket, pemandu, jam operasional, dan fasilitas perlu dikonfirmasi langsung kepada pengelola.</p>
+</section>
+
+<div class="plan-banner"><div><h3>Make room for a little adventure.</h3><p id="selectedPackage">Pilih ide perjalanan di atas untuk menampilkannya di sini.</p></div><a class="btn" href="#maps">Plan your route ↗</a></div>
+
+<section class="section" id="weather">
+  <div class="eyebrow">04 — WEATHER CHECK</div><h2 class="title">Check before <em>you go.</em></h2>
+  <div class="weather-card"><div class="weather-main"><div class="weather-icon">🌦️</div><div><h3>Periksa cuaca sebelum berangkat</h3><p>Cuaca di sekitar air terjun dapat berubah. Gunakan tombol di bawah untuk membuka prakiraan terbaru di kawasan Cianjur.</p><a class="btn" target="_blank" rel="noopener" href="https://www.google.com/search?q=cuaca+Cianjur+hari+ini">Lihat cuaca terbaru ↗</a></div></div><div><div class="weather-fields"><div><label for="weatherDate">Tanggal kunjungan</label><input type="date" id="weatherDate"></div><div><label for="weatherPlan">Rencana cuaca</label><select id="weatherPlan"><option value="sun">Cerah / berawan</option><option value="rain">Hujan ringan</option><option value="storm">Hujan deras / petir</option></select></div></div><p class="weather-tip" id="weatherTip">Tetap cek prakiraan terbaru pada hari keberangkatan dan ikuti arahan pengelola setempat.</p></div></div>
+</section>
+
+<section class="section reviews-section" id="reviews">
+  <div class="section-head"><div><div class="eyebrow">05 — VISITOR NOTES</div><h2 class="title">Moments to <em>remember.</em></h2></div><p>Bagian ulasan contoh untuk tampilan website. Ganti dengan ulasan asli setelah mendapat izin pengunjung.</p></div>
+  <div class="reviews">
+    <article class="review"><div class="stars">★★★★★</div><blockquote>“Tempat yang pas buat berhenti sebentar dari rutinitas dan menikmati pemandangan alam.”</blockquote><div class="review-person"><div class="avatar">A</div><div><strong>Pengunjung 01</strong><small>Contoh ulasan website</small></div></div></article>
+    <article class="review"><div class="stars">★★★★★</div><blockquote>“Foto pemandangannya bikin ingin berkunjung. Tetap cek kondisi cuaca dan akses sebelum jalan.”</blockquote><div class="review-person"><div class="avatar">B</div><div><strong>Pengunjung 02</strong><small>Contoh ulasan website</small></div></div></article>
+    <article class="review"><div class="stars">★★★★★</div><blockquote>“Ide liburan alam bareng teman. Jangan lupa bawa pulang sampah dan menjaga lokasi tetap bersih.”</blockquote><div class="review-person"><div class="avatar">C</div><div><strong>Pengunjung 03</strong><small>Contoh ulasan website</small></div></div></article>
+  </div>
+  <p class="disclaimer">Ulasan di atas merupakan teks contoh/demonstrasi, bukan testimoni pengunjung nyata.</p>
+</section>
+
+<section class="section map-section" id="maps">
+  <div class="map-visual"><div><div class="map-pin"><span>⌖</span></div><div class="map-label">Curug Cipelah · Cianjur</div></div></div>
+  <div class="map-copy"><div class="eyebrow">06 — FIND YOUR WAY</div><h2 class="title">The journey<br>starts <em>here.</em></h2><p>Buka Google Maps untuk mencari Curug Cipelah di Cianjur. Pastikan titik yang dipilih sesuai dengan lokasi tujuan, lalu periksa rute dan kondisi jalan sebelum berangkat.</p><a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Curug+Cipelah+Cianjur">Open Google Maps ↗</a><div class="faq"><details><summary>Apa yang harus dicek sebelum berangkat?</summary><p>Periksa rute, prakiraan cuaca, kondisi kendaraan, dan konfirmasi akses ke pengelola atau warga setempat.</p></details><details><summary>Apakah harga tiket tercantum di sini?</summary><p>Belum. Harga tiket dan fasilitas dapat berubah, jadi pastikan informasi terbaru dari pengelola.</p></details><details><summary>Bagaimana menjaga keselamatan?</summary><p>Ikuti jalur resmi, hindari bebatuan licin dan aliran air deras, serta patuhi petunjuk keselamatan di lokasi.</p></details></div></div>
+</section>
+
+<section class="footer-cta"><div><h2>Ready to find your escape?</h2><p>Siapkan perjalananmu, nikmati alamnya, dan jaga keindahannya.</p></div><a class="btn" href="#home">Back to top ↑</a></section>
+<footer><a class="footer-logo" href="#home">↗ explore<span>cipelah</span></a><div class="footer-note">Discover more. Leave no trace.</div><div class="copyright">© 2026 EXPLORE CIPELAH · WEBSITE DEMO</div></footer>
+
+<div class="lightbox" id="lightbox"><button id="closeLightbox" aria-label="Tutup foto">×</button><img id="largeImage" src="" alt="Foto galeri ukuran besar"></div>
+<script>
+const lightbox=document.getElementById('lightbox');
+const largeImage=document.getElementById('largeImage');
+document.querySelectorAll('.photo').forEach(photo=>photo.addEventListener('click',()=>{
+  largeImage.src=photo.dataset.image;
+  lightbox.classList.add('show');
+}));
+document.getElementById('closeLightbox').addEventListener('click',()=>lightbox.classList.remove('show'));
+lightbox.addEventListener('click',e=>{if(e.target===lightbox)lightbox.classList.remove('show')});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')lightbox.classList.remove('show')});
+
+document.querySelectorAll('.filter-btn').forEach(btn=>btn.addEventListener('click',()=>{
+  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.photo').forEach(photo=>{
+    photo.style.display=btn.dataset.filter==='all'||photo.dataset.category===btn.dataset.filter?'block':'none';
+  });
+}));
+
+document.querySelectorAll('.choose-package').forEach(btn=>btn.addEventListener('click',()=>{
+  document.getElementById('selectedPackage').textContent='Pilihanmu: '+btn.dataset.package+'. Sesuaikan kegiatan dengan kondisi lokasi dan arahan pengelola.';
+  document.getElementById('selectedPackage').scrollIntoView({behavior:'smooth',block:'center'});
+}));
+
+document.getElementById('weatherPlan').addEventListener('change',e=>{
+  const tips={
+    sun:'Cuaca cerah atau berawan tetap perlu diikuti dengan pengecekan prakiraan terbaru dan kondisi jalur.',
+    rain:'Bawa pelindung hujan dan hati-hati karena jalur serta bebatuan bisa licin. Ikuti arahan pengelola.',
+    storm:'Jika ada hujan deras atau petir, tunda perjalanan ke area air terjun dan utamakan keselamatan.'
+  };
+  document.getElementById('weatherTip').textContent=tips[e.target.value];
+});
+const dateInput=document.getElementById('weatherDate');
+const today=new Date();
+dateInput.min=new Date(today.getTime()-today.getTimezoneOffset()*60000).toISOString().slice(0,10);
+</script>
+</body>
+</html>
