@@ -8,5 +8,3 @@ Fitur:
 - Tombol Google Maps untuk mencari Curug Cipelah, Cianjur.
 - Responsive untuk layar HP dan desktop.
 
-Foto Curug Cipelah yang kamu kirim disimpan di folder assets.
-Harga tiket, fasilitas, jam buka, cuaca live, dan ulasan asli belum diverifikasi; website tidak mengarang data tersebut.
